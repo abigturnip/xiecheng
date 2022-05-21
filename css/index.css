@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 540px;
+  min-width: 320px;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.search-index {
+  width: 100%;
+  max-width: 540px;
+  min-width: 320px;
+  height: 44px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: linear-gradient(white, #f2f2f2);
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+.search {
+  height: 30px;
+  flex: 1;
+  border: 2px solid #0086f6;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 25px;
+  color: #999;
+  font-size: 15px;
+  margin: 0 10px;
+}
+.search-index i {
+  margin: 0 5px 0 15px;
+}
+.search-index .search .icon-RectangleCopy {
+  font-size: 20px;
+  color: #858585;
+}
+
+.man-nav {
+  height: 184px;
+}
+.man-nav .bg {
+  height: 184px;
+  margin: 44px 10px 0 10px;
+  display: flex;
+  height: 184px;
+  border-radius: 10px;
+}
+.man-nav ul {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+}
+.man-nav ul li {
+  width: 100%;
+  height: 58px;
+  line-height: 15px;
+  font-size: 12px;
+}
+.man-nav ul li a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 58px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.man-nav .man-nav-list .man-nav-first a span:first-child {
+  width: 28px;
+  height: 28px;
+  background: url(../upload/hotel.png) no-repeat;
+  background-size: 28px 28px;
+}
+.man-nav .man-nav-list .man-nav-first {
+  border-top-left-radius: 10px;
+  background-image: linear-gradient(180deg, #fa5956, #fb8650);
+}
+.man-nav .man-nav-list .man-nav-two a span:first-child {
+  width: 28px;
+  height: 28px;
+  background: url(../upload/flight.png) no-repeat;
+  background-size: 28px 28px;
+}
+.man-nav .man-nav-list .man-nav-two {
+  background-image: linear-gradient(180deg, #3c83fa, #50b2fa);
+}
+.man-nav .man-nav-list .man-nav-three a span:first-child {
+  width: 28px;
+  height: 28px;
+  background: url(../upload/train_ticket.png) no-repeat;
+  background-size: 28px 28px;
+}
+.man-nav .man-nav-list .man-nav-three {
+  background-image: linear-gradient(0deg, #66a4ff, #5e80ff);
+}
+.man-nav .man-nav-list .man-nav-four a span:first-child {
+  width: 28px;
+  height: 28px;
+  background: url(../upload/vacation.png) no-repeat;
+  background-size: 28px 28px;
+}
+.man-nav .man-nav-list .man-nav-four {
+  background-image: linear-gradient(180deg, #2fc3b6, #52d9b3);
+}
+
+.man-nav .man-nav-list .man-nav-five a span:first-child {
+  width: 28px;
+  height: 28px;
+  background: url(../upload/gs.png) no-repeat;
+  background-size: 28px 28px;
+}
+.man-nav .man-nav-list .man-nav-five {
+  border-top-right-radius: 10px;
+  background-image: linear-gradient(0deg, #ffa846, #ff8939 99%);
+}
+.man-nav .man-nav-list .man-nav-child a span:first-child {
+  width: 28px;
+  height: 28px;
+  background: url(../upload/hotel_inn.png) no-repeat;
+  background-size: 28px 28px;
+}
+.man-nav .man-nav-list .man-nav-child {
+  background-color: #fff5f1;
+}
+.man-nav .man-nav-list .man-nav-child a span:last-child {
+  color: black;
+}
+.man-nav ul:first-child li:last-child {
+  border-bottom-left-radius: 10px;
+}
+.man-nav ul:last-child li:last-child {
+  border-bottom-right-radius: 10px;
+}
+.sub-banner {
+  height: 150px;
+  margin: 0 10px 0 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-banner .banner {
+  flex: 1;
+  background: #ffffff;
+  margin-left: 8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sub-banner .banner .title {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #ff4607;
+  margin-bottom: 6px;
+}
+.sub-banner .banner .title span {
+  background-color: #ffebe3;
+  padding: 3px;
+  text-align: center;
+}
+.sub-banner .banner .pic {
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+}
+.sub-banner .banner .title img {
+  width: 73px;
+  height: 20px;
+  margin-left: 6px;
+}
+.sub-banner .banner .pic .img {
+  height: 78px;
+  border-radius: 10px;
+  margin: 0 6px;
+  background-color: #0086f6;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+.sub-banner .banner .pic .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform: scale(1.5);
+}
+
+.sub-banner .banner .pic .img span:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-size: 12px;
+  color: white;
+  background: #333;
+  opacity: 0.8;
+  padding: 0 5px;
+  border-radius: 10px 0 8px 0;
+}
+.sub-banner .banner .pic .img span:last-child {
+  position: absolute;
+  top: 62px;
+  left: 3px;
+  z-index: 1;
+  font-size: 12px;
+  color: white;
+  /* border-radius: 10px 0 8px 0; */
+  font-weight: 700;
+}
+
+.sub-banner .banner .pic .price {
+  height: 20px;
+  margin: 0 6px;
+  display: flex;
+}
+.sub-banner .banner .pic .price .x_price {
+  color: #ff6600;
+  font-size: 12px;
+}
+.sub-banner .banner .pic .price .x_price span {
+  font-size: 16px;
+  font-weight: 700;
+}
+.sub-banner .banner .pic .price .delete {
+  color: #858585;
+  text-decoration: line-through;
+  font-size: 12px;
+  line-height: 20px;
+}
+.sub-banner .banner .pic .price .lj_price {
+  background-color: #fa6155;
+  font-size: 12px;
+  color: white;
+  padding: 3px;
+}
+.adv_banner {
+  margin: 10px 10px 0;
+}
+.adv_banner img {
+  display: block;
+  height: 88px;
+  width: 100%;
+  border-radius: 10px;
+}
+.footer {
+  height: 120px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.footer .footer-group {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.footer .footer-group a {
+  border: 1px solid #999;
+  border-radius: 4px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  min-width: 99px;
+}
+.footer-ver {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+.footer-ver a {
+  color: #666;
+}
+.menu {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+}
+.menu ul {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+}
+.menu ul a {
+  color: #666;
+}
+.menu ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

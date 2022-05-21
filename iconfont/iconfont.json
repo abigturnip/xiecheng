@@ -1,0 +1,30 @@
+{
+  "id": "3399739",
+  "name": "携程",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2076254",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e88b",
+      "unicode_decimal": 59531
+    },
+    {
+      "icon_id": "7549348",
+      "name": "搜索",
+      "font_class": "RectangleCopy",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "9923737",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}
